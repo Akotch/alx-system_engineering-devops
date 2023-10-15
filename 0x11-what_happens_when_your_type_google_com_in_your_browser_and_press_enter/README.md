@@ -1,4 +1,4 @@
-## [Permalink](https://akotch.hashnode.dev/the-journey-of-a-url-what-happens-when-you-type-httpswwwgooglecom-and-press-enter#heading-introduction "Permalink")**Introduction**
+**Introduction**
 
 Have you ever wondered what happens behind the scenes when you type a URL like "[https://www.google.com](https://www.google.com/)" into your browser and press Enter? The process may seem instantaneous, but there are several intricate steps that occur to bring that webpage to your screen. In this blog post, we will take a deep dive into each stage of this journey, covering everything from DNS requests to databases.
 
