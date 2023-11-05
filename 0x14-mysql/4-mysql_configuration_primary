@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # The MySQL database server configuration file.
 #
@@ -102,3 +103,14 @@ binlog_do_db            = tyrell_corp
 # ssl-ca=/etc/mysql/cacert.pem
 # ssl-cert=/etc/mysql/server-cert.pem
 # ssl-key=/etc/mysql/server-key.pem
+=======
+[mysqld]
+pid-file       = /var/run/mysqld/mysqld.pid
+socket         = /var/run/mysqld/mysqld.sock
+datadir        = /var/lib/mysql
+log-error      = /var/log/mysql/error.log
+symbolic-links = 0
+server-id      = 1
+log_bin        = /var/log/mysql/mysql-bin.log
+binlog_do_db   = tyrell_corp
+>>>>>>> 002ed6f42cc8cdf71059988af318d2d964ba0700
